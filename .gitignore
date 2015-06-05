@@ -3,3 +3,6 @@
 /yabe/lib
 /yabe/test-result
 /yabe/logs
+/yabe/.project
+/yabe/.classpath
+/yabe/.settings/
