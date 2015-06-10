@@ -2,7 +2,7 @@
 
 User(bob):
     email:          bob@gmail.com
-    password:       secret
+    password:       123
     fullname:       Bob
     isAdmin:        true
     

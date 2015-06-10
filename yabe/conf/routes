@@ -11,11 +11,14 @@ GET		/posts/{tag}							Application.listTagged
 
 # Administration
 GET     /admin/?                                Admin.index
+GET     /admin/myPosts/{id}                 	Admin.form
+GET     /admin/new                          	Admin.form
+POST    /admin/myPosts/{id}                 	Admin.save
+POST    /admin/new                          	Admin.save
 *       /admin                                  module:crud
 
 # Import Secure routes
 *      	/              							module:secrue
-
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
