@@ -1,3 +1,5 @@
+.DS_Store
+/yabe/.DS_Store
 /yabe/tmp
 /yabe/modules
 /yabe/lib
@@ -6,3 +8,4 @@
 /yabe/.project
 /yabe/.classpath
 /yabe/.settings/
+/yabe/eclipse/
