@@ -8,7 +8,13 @@ GET		/posts/{<[0-9]+>id}						Application.show
 POST	/posts/{postId}/comments				Application.postComment
 GET		/captcha								Application.captcha
 GET		/posts/{tag}							Application.listTagged
-*       /admin              					module:crud
+
+# Administration
+GET     /admin/?                                Admin.index
+*       /admin                                  module:crud
+
+# Import Secure routes
+*      	/              							module:secrue
 
 
 # Ignore favicon requests

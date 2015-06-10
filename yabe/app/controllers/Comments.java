@@ -1,1 +1,1 @@
-package controllers;public class Comments extends CRUD {}
+package controllers;import play.mvc.With;@Check("admin")@With(Secure.class)public class Comments extends CRUD {}
